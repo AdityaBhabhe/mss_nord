@@ -261,6 +261,26 @@
  }
 
  /*********************** User Styling **********************/
+/**********************
+1.Warning - avoid use of heigh
+2.Extra code - padding:10px 30px 10px 30px can be written as padding: 10px 30px;
+3.  
+.join-satisfied-users-content{
+  position: absolute;
+  top: 208px;
+  right: 100px;
+
+}
+Above styling can be done with padding and margin , avoid using postion
+
+4. .join-satisfied-users-content ul li{
+  list-style: none;
+  padding: 0px 0px 7px 0px;
+}
+
+Totaly wrong code list-type is applied onul not on li
+
+******************************/
 .container { width: 100%;}
 
 .wrapper {
