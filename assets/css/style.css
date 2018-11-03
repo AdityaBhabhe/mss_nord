@@ -261,3 +261,81 @@
  }
 
  /*********************** User Styling **********************/
+.container { width: 100%;}
+
+.wrapper {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+height: 80px;
+background color: transparent;
+}
+
+header nav{
+  float: right;
+}
+
+header img{
+  float: left;
+  height: 80px;
+  width: 200px;
+}
+
+header ul li{
+  display: inline-block;
+  padding: 10px 30px 10px 30px
+}
+
+header ul li a{
+text-decoration: none;
+padding: 10px 30px 10px 30px;
+
+}
+
+header h1{
+  text-indent: -9999px;
+}
+
+.join-satisfied-users{
+  height: 550px;
+  background-color: #ff0;
+  position: relative;
+}
+
+
+
+.mobile-photo{
+}
+
+.join-satisfied-users-content{
+  position: absolute;
+  top: 208px;
+  right: 100px;
+
+}
+
+.join-satisfied-users-content h2{
+font-size: 30px;
+width: 360px;
+}
+
+.join-satisfied-users-content ul li{
+  list-style: none;
+  padding: 0px 0px 7px 0px;
+}
+
+.join-satisfied-users-content ul{
+  padding-top: 30px;
+}
+
+.join-satisfied-users-content img{
+  padding-top: 30px;
+}
+
+.mobile-photo img{
+  padding-left: 100px;
+  padding-top: 250px;
+}
